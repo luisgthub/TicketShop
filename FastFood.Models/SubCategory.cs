@@ -14,7 +14,7 @@ namespace FastFood.Models
         [Required]
         public string Title { get; set; }
         public int CategoryId { get; set; }
-        public Category Category { get; set; }
+        public Category Category { get; set; } 
 
     }
 }
